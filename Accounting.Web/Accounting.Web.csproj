@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.5" />
+    <PackageReference Include="MongoDB.Bson" Version="2.12.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Accounting.BLL.Interface\Accounting.BLL.Interface.csproj" />
+    <ProjectReference Include="..\Accounting.BLL\Accounting.BLL.csproj" />
+    <ProjectReference Include="..\Accounting.Interface\Accounting.BLL.Interface.csproj" />
+    <ProjectReference Include="D:\Repos\CommonCore\CommonCore.Api\CommonCore.Api.csproj" />
+    <ProjectReference Include="D:\Repos\CommonCore\CommonCore.Interfaces\CommonCore.Interfaces.csproj" />
+    <ProjectReference Include="D:\Repos\CommonCore\CommonCore.Models\CommonCore.Models.csproj" />
+    <ProjectReference Include="D:\Repos\CommonCore\CommonCore2\CommonCore2.csproj" />
+  </ItemGroup>
+
+</Project>

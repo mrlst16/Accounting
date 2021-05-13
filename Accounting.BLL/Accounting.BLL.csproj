@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Accounting.BLL.Interface\Accounting.BLL.Interface.csproj" />
+    <ProjectReference Include="..\Accounting.Interface\Accounting.BLL.Interface.csproj" />
+    <ProjectReference Include="D:\Repos\CommonCore\CommonCore.Interfaces\CommonCore.Interfaces.csproj" />
+    <ProjectReference Include="D:\Repos\CommonCore\CommonCore.Models\CommonCore.Models.csproj" />
+  </ItemGroup>
+
+</Project>
