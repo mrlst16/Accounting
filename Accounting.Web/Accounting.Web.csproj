@@ -12,7 +12,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Accounting.BLL.Interface\Accounting.BLL.Interface.csproj" />
     <ProjectReference Include="..\Accounting.BLL\Accounting.BLL.csproj" />
-    <ProjectReference Include="..\Accounting.Interface\Accounting.BLL.Interface.csproj" />
     <ProjectReference Include="D:\Repos\CommonCore\CommonCore.Api\CommonCore.Api.csproj" />
     <ProjectReference Include="D:\Repos\CommonCore\CommonCore.Interfaces\CommonCore.Interfaces.csproj" />
     <ProjectReference Include="D:\Repos\CommonCore\CommonCore.Models\CommonCore.Models.csproj" />

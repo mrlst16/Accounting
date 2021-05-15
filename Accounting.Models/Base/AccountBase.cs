@@ -1,12 +1,12 @@
-﻿using System;
+﻿using CommonCore.Repo.Entities;
+using System;
 
-namespace Accounting.Models.Transactions
+namespace Accounting.Models.Base
 {
-    public class TransactionBase
+    public abstract class AccountBase : EntityBase
     {
         public Guid CompanyId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public decimal Amount { get; set; }
     }
 }

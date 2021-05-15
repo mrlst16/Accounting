@@ -47,3 +47,4 @@ packages/*
 .vs/*
 */bin/*
 */debug/*
+*/.sonarqube/*

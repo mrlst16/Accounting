@@ -8,7 +8,7 @@ namespace Accounting.Web.ServiceRegistrations
 {
     public static class ServiceRegistration
     {
-        public static void RegisterServices(IServiceCollection services)
+        public static void RegisterServices(this IServiceCollection services)
         {
             services.AddTransient<ITransactionService, TransactionService>();
             services.AddTransient<IBooksService, BooksService>();

@@ -8,7 +8,7 @@ namespace Accounting.Web.ServiceRegistrations
 {
     public static class LoaderRegistration
     {
-        public static void RegisterLoaders(IServiceCollection services)
+        public static void RegisterLoaders(this IServiceCollection services)
         {
             services.AddTransient<ITransactionLoader, TransactionLoader>();
             services.AddTransient<IBooksLoader, BooksLoader>();

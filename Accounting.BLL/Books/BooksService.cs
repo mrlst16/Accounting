@@ -1,5 +1,6 @@
 ﻿using Accounting.BLL.Interface.Books;
 using Accounting.Models.Base;
+using Accounting.Models.Books;
 using System.Threading.Tasks;
 
 namespace Accounting.BLL.Books

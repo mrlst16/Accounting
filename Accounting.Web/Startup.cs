@@ -1,3 +1,4 @@
+using Accounting.Web.ServiceRegistrations;
 using CommonCore.Api.Handlers;
 using CommonCore.Models.Authentication;
 using CommonCore.Repo.Entities;
@@ -46,9 +47,9 @@ namespace Accounting.Web
             });
 
             //Implement all of this later
-            //services.RegisterServices();
-            //services.RegisterLoaders();
-            //services.RegisterContexts(Configuration);
+            services.RegisterServices();
+            services.RegisterLoaders();
+            services.RegisterContexts(Configuration);
             //services.RegisterValidators();
             //services.RegisterLoggers();
             //services.AddTransient<IAuthorizationHandler, JWTAuthorizationHandler>();

@@ -1,13 +1,14 @@
-﻿using CommonCore.Repo.Entities;
-using System;
+﻿using Accounting.Models.Enums;
+using Accounting.Models.Transactions;
+using System.Collections.Generic;
 
 namespace Accounting.Models.Base
 {
-    public abstract class BookAccount : EntityBase
+    public abstract class BookAccount : AccountBase
     {
-        public Guid CompanyId { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public abstract AccountTypeEnum Account { get; }
         public decimal Balance { get; set; }
+        public List<Credit> Credits { get; set; }
+        public List<Debit> Debits { get; set; }
     }
 }
