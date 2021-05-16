@@ -1,4 +1,4 @@
-﻿using Accounting.Interface.Companies;
+﻿using Accounting.BLL.Interface.Companies;
 using Accounting.Models.Companies;
 using CommonCore.Interfaces.Repository;
 using System;
@@ -15,9 +15,9 @@ namespace Accounting.BLL.Companies
                 .Delete(x => x.ID == id);
 
         public Task<(bool, Company)> Update(Company company)
-        {
-            throw new NotImplementedException();
-        }
+            => _repo
+                .Get<Company>()
+                .Update(company, x => x.ID == company.ID);
 
         public async Task<(bool, Company)> Create(Company company)
         {
@@ -27,7 +27,7 @@ namespace Accounting.BLL.Companies
                 await repo.Create(company);
                 return (true, company);
             }
-            catch (Exception e)
+            catch
             {
                 return (false, null);
             }

@@ -2,7 +2,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Accounting.Interface.Companies
+namespace Accounting.BLL.Interface.Companies
 {
     public interface ICompanyManagementLoader
     {
