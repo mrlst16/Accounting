@@ -1,4 +1,4 @@
-﻿using Accounting.Interface.Companies;
+﻿using Accounting.BLL.Interface.Companies;
 using Accounting.Models.Companies;
 using System;
 using System.Threading.Tasks;
