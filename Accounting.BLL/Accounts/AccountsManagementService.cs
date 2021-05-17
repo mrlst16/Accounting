@@ -1,15 +1,15 @@
-﻿using Accounting.BLL.Interface.Books;
-using Accounting.Models.Books;
+﻿using Accounting.BLL.Interface.Accounts;
+using Accounting.Models.Accounts;
 using System.Threading.Tasks;
 
-namespace Accounting.BLL.Books
+namespace Accounting.BLL.Accounts
 {
-    public class BooksService : IBooksService
+    public class AccountsManagementService : IAccountsManagementService
     {
-        private readonly IBooksLoader _loader;
+        private readonly IAccountsManagementLoader _loader;
 
-        public BooksService(
-            IBooksLoader loader
+        public AccountsManagementService(
+            IAccountsManagementLoader loader
             )
         {
             _loader = loader;

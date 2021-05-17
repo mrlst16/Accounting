@@ -1,6 +1,6 @@
-﻿using Accounting.BLL.Books;
+﻿using Accounting.BLL.Accounts;
 using Accounting.BLL.Companies;
-using Accounting.BLL.Interface.Books;
+using Accounting.BLL.Interface.Accounts;
 using Accounting.BLL.Interface.Companies;
 using Accounting.BLL.Interface.Transactions;
 using Accounting.BLL.Transactions;
@@ -14,7 +14,7 @@ namespace Accounting.Web.ServiceRegistrations
         {
             services.AddTransient<ICompanyManagementLoader, CompanyManagementLoader>();
             services.AddTransient<ITransactionLoader, TransactionLoader>();
-            services.AddTransient<IBooksLoader, BooksLoader>();
+            services.AddTransient<IAccountsManagementLoader, AccountsManagementLoader>();
         }
     }
 }

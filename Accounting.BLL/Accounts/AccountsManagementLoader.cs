@@ -1,15 +1,15 @@
-﻿using Accounting.BLL.Interface.Books;
-using Accounting.Models.Books;
+﻿using Accounting.BLL.Interface.Accounts;
+using Accounting.Models.Accounts;
 using CommonCore.Interfaces.Repository;
 using System.Threading.Tasks;
 
-namespace Accounting.BLL.Books
+namespace Accounting.BLL.Accounts
 {
-    public class BooksLoader : IBooksLoader
+    public class AccountsManagementLoader : IAccountsManagementLoader
     {
         private readonly ICrudRepositoryFactory _crudRepositoryFactory;
 
-        public BooksLoader(
+        public AccountsManagementLoader(
             ICrudRepositoryFactory crudRepositoryFactory
             )
         {
