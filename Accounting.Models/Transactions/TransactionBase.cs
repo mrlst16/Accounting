@@ -1,7 +1,7 @@
 ﻿using CommonCore.Repo.Entities;
 using System;
 
-namespace Accounting.Models.Base
+namespace Accounting.Models.Transactions
 {
     public abstract class TransactionBase : EntityBase
     {

@@ -1,11 +1,11 @@
-﻿using FluentValidation;
+﻿using CommonCore.Api.Extensions;
+using CommonCore.Models.Responses;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json;
 using System;
 using System.Net;
 using System.Threading.Tasks;
-using CommonCore.Api.Extensions;
-using Newtonsoft.Json;
-using CommonCore.Models.Responses;
 
 namespace Accounting.Web.Middleware
 {
@@ -45,7 +45,7 @@ namespace Accounting.Web.Middleware
                         response.StatusCode = (int)HttpStatusCode.InternalServerError;
                         apiResponse = exception.AsApiResponse();
                         break;
-                } 
+                }
 
                 var result = JsonConvert.SerializeObject(apiResponse);
                 await response.WriteAsync(result);
