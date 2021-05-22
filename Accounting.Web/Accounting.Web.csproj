@@ -18,4 +18,8 @@
     <ProjectReference Include="D:\Repos\CommonCore\CommonCore2\CommonCore2.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\ViewModelControllers\" />
+  </ItemGroup>
+
 </Project>
