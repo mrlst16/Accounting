@@ -36,7 +36,7 @@ namespace Accounting.Web.ServiceRegistrations
                 case (Type t, int v) when t == typeof(Company) && v == 1:
                     return (IValidator<T>)new CompanyValidator();
                 default:
-                    return null;
+                    throw new Exception($"No validator registered for type {typeof(T)}");
             }
         }
     }

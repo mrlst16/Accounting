@@ -7,5 +7,6 @@ namespace Accounting.BLL.Interface.Transactions
     {
         Task RecordDebit(Debit debit);
         Task RecordCredit(Credit credit);
+        Task RecordTransactionsCsv(string csv);
     }
 }
