@@ -1,0 +1,17 @@
+O
+FD:\Repos\CommonCore\CommonCore.Models\Authentication\PasswordRecord.csutf-8P
+GD:\Repos\CommonCore\CommonCore.Models\Authentication\PasswordRequest.csutf-8N
+ED:\Repos\CommonCore\CommonCore.Models\Enums\ComparisonOperatorEnum.csutf-8P
+GD:\Repos\CommonCore\CommonCore.Models\Exceptions\ValidationException.csutf-8R
+ID:\Repos\CommonCore\CommonCore.Models\Extensions\IComparableExtensions.csutf-8C
+:D:\Repos\CommonCore\CommonCore.Models\Geography\Address.csutf-8J
+AD:\Repos\CommonCore\CommonCore.Models\Repo\Entities\EntityBase.csutf-8G
+>D:\Repos\CommonCore\CommonCore.Models\Repo\Entities\IEntity.csutf-8E
+<D:\Repos\CommonCore\CommonCore.Models\Repo\RepoExtensions.csutf-8D
+;D:\Repos\CommonCore\CommonCore.Models\Repo\SearchRequest.csutf-8G
+>D:\Repos\CommonCore\CommonCore.Models\Responses\ApiResponse.csutf-8I
+@D:\Repos\CommonCore\CommonCore.Models\Responses\ErrorResponse.csutf-8E
+<D:\Repos\CommonCore\CommonCore.Models\Responses\IResponse.csutf-8J
+AD:\Repos\CommonCore\CommonCore.Models\Responses\MethodResponse.csutf-8p
+eD:\Repos\CommonCore\CommonCore.Models\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8c
+XD:\Repos\CommonCore\CommonCore.Models\obj\Debug\net5.0\CommonCore.Models.AssemblyInfo.csutf-8

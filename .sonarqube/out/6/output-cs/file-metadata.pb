@@ -1,0 +1,17 @@
+X
+OC:\Users\matt\Source\Repos\Accounting\Accounting.Models\Accounts\AccountBase.csutf-8R
+IC:\Users\matt\Source\Repos\Accounting\Accounting.Models\Accounts\Asset.csutf-8S
+JC:\Users\matt\Source\Repos\Accounting\Accounting.Models\Accounts\Equity.csutf-8V
+MC:\Users\matt\Source\Repos\Accounting\Accounting.Models\Accounts\Liability.csutf-8U
+LC:\Users\matt\Source\Repos\Accounting\Accounting.Models\Companies\Company.csutf-8X
+OC:\Users\matt\Source\Repos\Accounting\Accounting.Models\DTO\GetReportRequest.csutf-8Y
+PC:\Users\matt\Source\Repos\Accounting\Accounting.Models\Enums\AccountTypeEnum.csutf-8V
+MC:\Users\matt\Source\Repos\Accounting\Accounting.Models\Reports\ReportBase.csutf-8Z
+QC:\Users\matt\Source\Repos\Accounting\Accounting.Models\Reports\ReportGrouping.csutf-8X
+OC:\Users\matt\Source\Repos\Accounting\Accounting.Models\Reports\TrialBalance.csutf-8W
+NC:\Users\matt\Source\Repos\Accounting\Accounting.Models\Transactions\Credit.csutf-8V
+MC:\Users\matt\Source\Repos\Accounting\Accounting.Models\Transactions\Debit.csutf-8`
+WC:\Users\matt\Source\Repos\Accounting\Accounting.Models\Transactions\TransactionBase.csutf-8e
+\C:\Users\matt\Source\Repos\Accounting\Accounting.Models\Transactions\TransactionCsvRecord.csutf-8‚
+wC:\Users\matt\Source\Repos\Accounting\Accounting.Models\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8u
+jC:\Users\matt\Source\Repos\Accounting\Accounting.Models\obj\Debug\net5.0\Accounting.Models.AssemblyInfo.csutf-8

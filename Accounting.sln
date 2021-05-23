@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonCore2", "D:\Repos\Com
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accounting.BLL.Interface", "Accounting.BLL.Interface\Accounting.BLL.Interface.csproj", "{A202CDD3-63CA-497F-8381-8EBB446C4BAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounting.BLL.Tests", "Accounting.BLL.Tests\Accounting.BLL.Tests.csproj", "{1F89617D-BC9F-4F4D-8170-89F954B2A7C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accounting.BLL.Tests", "Accounting.BLL.Tests\Accounting.BLL.Tests.csproj", "{1F89617D-BC9F-4F4D-8170-89F954B2A7C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounting.Web.Tests", "Accounting.Web.Tests\Accounting.Web.Tests.csproj", "{2EC42F5C-DE5F-4E27-90C8-E822EBAD24D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accounting.Web.Tests", "Accounting.Web.Tests\Accounting.Web.Tests.csproj", "{2EC42F5C-DE5F-4E27-90C8-E822EBAD24D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounting.MockData", "Accounting.MockData\Accounting.MockData.csproj", "{A0E35A4F-36C2-4FB2-8B04-F38F19A5EC04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{2EC42F5C-DE5F-4E27-90C8-E822EBAD24D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EC42F5C-DE5F-4E27-90C8-E822EBAD24D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EC42F5C-DE5F-4E27-90C8-E822EBAD24D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E35A4F-36C2-4FB2-8B04-F38F19A5EC04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E35A4F-36C2-4FB2-8B04-F38F19A5EC04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E35A4F-36C2-4FB2-8B04-F38F19A5EC04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E35A4F-36C2-4FB2-8B04-F38F19A5EC04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

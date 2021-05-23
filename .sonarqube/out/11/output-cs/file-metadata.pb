@@ -1,0 +1,15 @@
+^
+UC:\Users\matt\Source\Repos\Accounting\Accounting.Web\Controllers\CompanyController.csutf-8c
+ZC:\Users\matt\Source\Repos\Accounting\Accounting.Web\Controllers\TransactionsController.csutf-8c
+ZC:\Users\matt\Source\Repos\Accounting\Accounting.Web\Middleware\ErrorHandlingMiddleware.csutf-8H
+?C:\Users\matt\Source\Repos\Accounting\Accounting.Web\Program.csutf-8j
+aC:\Users\matt\Source\Repos\Accounting\Accounting.Web\ServiceRegistrations\ContextRegistrations.csutf-8h
+_C:\Users\matt\Source\Repos\Accounting\Accounting.Web\ServiceRegistrations\LoaderRegistration.csutf-8i
+`C:\Users\matt\Source\Repos\Accounting\Accounting.Web\ServiceRegistrations\ServiceRegistration.csutf-8l
+cC:\Users\matt\Source\Repos\Accounting\Accounting.Web\ServiceRegistrations\ValidatorRegistrations.csutf-8H
+?C:\Users\matt\Source\Repos\Accounting\Accounting.Web\Startup.csutf-8[
+RC:\Users\matt\Source\Repos\Accounting\Accounting.Web\StaticConstants\ErrorCodes.csutf-8\
+SC:\Users\matt\Source\Repos\Accounting\Accounting.Web\Validators\CompanyValidator.csutf-8
+tC:\Users\matt\Source\Repos\Accounting\Accounting.Web\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8o
+dC:\Users\matt\Source\Repos\Accounting\Accounting.Web\obj\Debug\net5.0\Accounting.Web.AssemblyInfo.csutf-8‚
+wC:\Users\matt\Source\Repos\Accounting\Accounting.Web\obj\Debug\net5.0\Accounting.Web.MvcApplicationPartsAssemblyInfo.csutf-8

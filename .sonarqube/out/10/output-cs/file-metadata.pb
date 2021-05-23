@@ -1,0 +1,11 @@
+b
+YC:\Users\matt\Source\Repos\Accounting\Accounting.BLL\Accounts\AccountsManagementLoader.csutf-8c
+ZC:\Users\matt\Source\Repos\Accounting\Accounting.BLL\Accounts\AccountsManagementService.csutf-8b
+YC:\Users\matt\Source\Repos\Accounting\Accounting.BLL\Companies\CompanyManagementLoader.csutf-8c
+ZC:\Users\matt\Source\Repos\Accounting\Accounting.BLL\Companies\CompanyManagementService.csutf-8m
+dC:\Users\matt\Source\Repos\Accounting\Accounting.BLL\Reporting\FundamentalFinancialReportsService.csutf-8X
+OC:\Users\matt\Source\Repos\Accounting\Accounting.BLL\Reporting\ReportsLoader.csutf-8_
+VC:\Users\matt\Source\Repos\Accounting\Accounting.BLL\Transactions\TransactionLoader.csutf-8`
+WC:\Users\matt\Source\Repos\Accounting\Accounting.BLL\Transactions\TransactionService.csutf-8
+tC:\Users\matt\Source\Repos\Accounting\Accounting.BLL\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8o
+dC:\Users\matt\Source\Repos\Accounting\Accounting.BLL\obj\Debug\net5.0\Accounting.BLL.AssemblyInfo.csutf-8

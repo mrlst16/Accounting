@@ -1,0 +1,14 @@
+A
+8D:\Repos\CommonCore\CommonCore\Comparers\ComparerFunc.csutf-8B
+9D:\Repos\CommonCore\CommonCore\Properties\AssemblyInfo.csutf-8M
+DD:\Repos\CommonCore\CommonCore\Repo\MongoDb\MongoDbCrudRepository.csutf-8>
+5D:\Repos\CommonCore\CommonCore\Repo\RepoExtensions.csutf-8H
+?D:\Repos\CommonCore\CommonCore\Repo\Requests\RunSprocRequest.csutf-8>
+5D:\Repos\CommonCore\CommonCore\Responses\IResponse.csutf-8=
+4D:\Repos\CommonCore\CommonCore\Responses\Response.csutf-8C
+:D:\Repos\CommonCore\CommonCore\Responses\SimpleResponse.csutf-8B
+9D:\Repos\CommonCore\CommonCore\Utilities\GuidUtilities.csutf-8B
+9D:\Repos\CommonCore\CommonCore\Validation\IValidatable.csutf-8G
+>D:\Repos\CommonCore\CommonCore\Validation\RequiredAttribute.csutf-8?
+6D:\Repos\CommonCore\CommonCore\Validation\Validator.csutf-8i
+^D:\Repos\CommonCore\CommonCore\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8
