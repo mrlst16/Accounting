@@ -29,7 +29,7 @@ namespace Accounting.BLL.Reporting
             result.AssetsBalance = result.Assets.Sum(x => x.Balance);
             result.LiabilitiesBalance = result.Liabilities.Sum(x => x.Balance);
             result.EquitiesBalance = result.Equities.Sum(x => x.Balance);
-
+            result.Difference = result.AssetsBalance - result.LiabilitiesBalance - result.EquitiesBalance;
             result.IsBalanced = result.AssetsBalance - result.LiabilitiesBalance == result.EquitiesBalance;
             return result;
         }

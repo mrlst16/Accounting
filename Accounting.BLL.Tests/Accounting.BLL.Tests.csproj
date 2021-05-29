@@ -23,8 +23,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Accounting.BLL\Accounting.BLL.csproj" />
     <ProjectReference Include="..\Accounting.MockData\Accounting.MockData.csproj" />
-    <ProjectReference Include="..\Accounting.Models\Accounting.Models.csproj" />
-    <ProjectReference Include="D:\Repos\CommonCore\CommonCore.Interfaces\CommonCore.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>
