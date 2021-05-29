@@ -73,19 +73,18 @@ namespace Accounting.BLL.Reporting
             IEnumerable<T> result = await _crudRepositoryFactory
                 .Get<T>()
                 .Read(x => x.CompanyID == x.ID);
-            var accountNumbers = result.Select(x => x.ID);
-
             Parallel.ForEach(result, async (x) =>
             {
-                x.Credits = await creditsRepository.Read(y => PullTransaction<Credit>(y, accountNumbers, request.StartDate, request.EndDate));
-                x.Debits = await debitsReporsitory.Read(y => PullTransaction<Debit>(y, accountNumbers, request.StartDate, request.EndDate));
+                x.Credits = await creditsRepository.Read(y => PullTransaction<Credit>(y, x.ID, request.StartDate, request.EndDate));
+                x.Debits = await debitsReporsitory.Read(y => PullTransaction<Debit>(y, x.ID, request.StartDate, request.EndDate));
             });
             return result;
         }
 
-        private bool PullTransaction<T>(T t, IEnumerable<Guid> accountIds, DateTime start, DateTime end)
+        private bool PullTransaction<T>(T t, Guid accountId, DateTime start, DateTime end)
             where T : TransactionBase
-            => accountIds.Contains(t.AccountID)
-                && t.CreateDate >= start && t.CreateDate <= end;
+            => accountId == t.AccountID
+                && t.CreateDate >= start
+                && t.CreateDate <= end;
     }
 }

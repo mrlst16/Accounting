@@ -1,9 +1,6 @@
 ﻿using Accounting.Models.Transactions;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Accounting.MockData.Transactions
 {
@@ -17,8 +14,8 @@ namespace Accounting.MockData.Transactions
         /// </summary>
         /// <param name="account">The account numbers/param>
         /// <param name="amounts">Amounts to create credits for</param>
-        /// <returns></returns>
-        public static List<T> TransactionsForAccount<T>(Guid account, params decimal[] amounts)
+        /// <returns>createDate</returns>
+        public static List<T> TransactionsForAccount<T>(Guid account, DateTime createDate, params decimal[] amounts)
             where T : TransactionBase, new()
         {
             List<T> result = new List<T>();
@@ -28,8 +25,36 @@ namespace Accounting.MockData.Transactions
                 {
                     AccountID = account,
                     ID = Guid.NewGuid(),
-                    Amount = amt
+                    Amount = amt,
+                    CreateDate = createDate
                 };
+                result.Add(tx);
+            }
+            return result;
+        }
+
+        public static List<T> TransactionsForAccount<T>(
+            Guid account,
+            DateTime start,
+            DateTime end,
+            TimeSpan increment,
+            decimal amount
+            )
+            where T : TransactionBase, new()
+        {
+            List<T> result = new List<T>();
+            var date = start;
+            while (date <= end)
+            {
+                var tx = new T()
+                {
+                    AccountID = account,
+                    ID = Guid.NewGuid(),
+                    Amount = amount,
+                    CreateDate = date
+                };
+                result.Add(tx);
+                date += increment;
             }
             return result;
         }

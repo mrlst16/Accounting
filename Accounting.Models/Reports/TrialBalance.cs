@@ -12,5 +12,6 @@ namespace Accounting.Models.Reports
         public decimal LiabilitiesBalance { get; set; }
         public decimal EquitiesBalance { get; set; }
         public bool IsBalanced { get; set; }
+        public decimal Difference { get; set; }
     }
 }

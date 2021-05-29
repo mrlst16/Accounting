@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,12 @@ using NSubstitute;
 using CommonCore.Interfaces.Repository;
 using Accounting.Models.Transactions;
 using Accounting.BLL.Transactions;
+=======
+﻿using Accounting.BLL.Transactions;
+using Accounting.Models.Transactions;
+using CommonCore.Interfaces.Repository;
+using NSubstitute;
+>>>>>>> 5809026 ([ReportTrialBalance] Unit Tests)
 
 namespace Accounting.BLL.Tests.Transactions
 {
